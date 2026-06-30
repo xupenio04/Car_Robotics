@@ -1,0 +1,15 @@
+/home/robot/ros2_ws/install/camera_interfaces/share/ament_index/resource_index/package_run_dependencies/camera_interfaces
+/home/robot/ros2_ws/install/camera_interfaces/share/ament_index/resource_index/parent_prefix_path/camera_interfaces
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/environment/ament_prefix_path.sh
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/environment/ament_prefix_path.dsv
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/environment/path.sh
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/environment/path.dsv
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/local_setup.bash
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/local_setup.sh
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/local_setup.zsh
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/local_setup.dsv
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/package.dsv
+/home/robot/ros2_ws/install/camera_interfaces/share/ament_index/resource_index/packages/camera_interfaces
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/cmake/camera_interfacesConfig.cmake
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/cmake/camera_interfacesConfig-version.cmake
+/home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/package.xml

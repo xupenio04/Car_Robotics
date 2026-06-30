@@ -1,0 +1,6 @@
+{
+  "package_name": "servo_interfaces",
+  "non_idl_tuples": [
+    "/home/robot/ros2_ws/src/servo_interfaces:srv/MoverServo.srv"
+  ]
+}

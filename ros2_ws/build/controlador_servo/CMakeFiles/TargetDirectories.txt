@@ -1,0 +1,9 @@
+/home/robot/ros2_ws/build/controlador_servo/CMakeFiles/uninstall.dir
+/home/robot/ros2_ws/build/controlador_servo/CMakeFiles/controlador_servo_uninstall.dir
+/home/robot/ros2_ws/build/controlador_servo/CMakeFiles/test.dir
+/home/robot/ros2_ws/build/controlador_servo/CMakeFiles/edit_cache.dir
+/home/robot/ros2_ws/build/controlador_servo/CMakeFiles/rebuild_cache.dir
+/home/robot/ros2_ws/build/controlador_servo/CMakeFiles/list_install_components.dir
+/home/robot/ros2_ws/build/controlador_servo/CMakeFiles/install.dir
+/home/robot/ros2_ws/build/controlador_servo/CMakeFiles/install/local.dir
+/home/robot/ros2_ws/build/controlador_servo/CMakeFiles/install/strip.dir

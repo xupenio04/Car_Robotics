@@ -1,0 +1,47 @@
+[0.095s] Invoking command in '/home/robot/ros2_ws/build/controlador_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/ros2_ws/src/controlador_servo -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/install/controlador_servo
+[1.203s] -- The C compiler identification is GNU 13.3.0
+[1.928s] -- The CXX compiler identification is GNU 13.3.0
+[2.033s] -- Detecting C compiler ABI info
+[2.563s] -- Detecting C compiler ABI info - done
+[2.600s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.604s] -- Detecting C compile features
+[2.606s] -- Detecting C compile features - done
+[2.659s] -- Detecting CXX compiler ABI info
+[3.205s] -- Detecting CXX compiler ABI info - done
+[3.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.244s] -- Detecting CXX compile features
+[3.246s] -- Detecting CXX compile features - done
+[3.284s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.115s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.123s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[5.152s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[5.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.290s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.332s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.005s] -- Added test 'lint_cmake' to check CMake code style
+[7.020s] -- Added test 'xmllint' to check XML markup files
+[7.032s] -- Configuring done (6.9s)
+[7.065s] -- Generating done (0.0s)
+[7.076s] -- Build files have been written to: /home/robot/ros2_ws/build/controlador_servo
+[7.104s] Invoked command in '/home/robot/ros2_ws/build/controlador_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/ros2_ws/src/controlador_servo -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/install/controlador_servo
+[7.109s] Invoking command in '/home/robot/ros2_ws/build/controlador_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/ros2_ws/build/controlador_servo -- -j4 -l4
+[7.372s] Invoked command in '/home/robot/ros2_ws/build/controlador_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/ros2_ws/build/controlador_servo -- -j4 -l4
+[7.379s] Invoking command in '/home/robot/ros2_ws/build/controlador_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robot/ros2_ws/build/controlador_servo
+[7.425s] -- Install configuration: ""
+[7.426s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/package_run_dependencies/controlador_servo
+[7.428s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/parent_prefix_path/controlador_servo
+[7.430s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/ament_prefix_path.sh
+[7.431s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/ament_prefix_path.dsv
+[7.432s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/path.sh
+[7.434s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/path.dsv
+[7.435s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.bash
+[7.436s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.sh
+[7.437s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.zsh
+[7.439s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.dsv
+[7.440s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/package.dsv
+[7.441s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/packages/controlador_servo
+[7.443s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servoConfig.cmake
+[7.444s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servoConfig-version.cmake
+[7.445s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/package.xml
+[7.454s] Invoked command in '/home/robot/ros2_ws/build/controlador_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robot/ros2_ws/build/controlador_servo

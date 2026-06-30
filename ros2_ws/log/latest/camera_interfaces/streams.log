@@ -1,0 +1,20 @@
+[0.104s] Invoking command in '/home/robot/ros2_ws/build/camera_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/ros2_ws/build/camera_interfaces -- -j4 -l4
+[2.355s] Invoked command in '/home/robot/ros2_ws/build/camera_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/ros2_ws/build/camera_interfaces -- -j4 -l4
+[2.413s] Invoking command in '/home/robot/ros2_ws/build/camera_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robot/ros2_ws/build/camera_interfaces
+[2.467s] -- Install configuration: ""
+[2.468s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/ament_index/resource_index/package_run_dependencies/camera_interfaces
+[2.471s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/ament_index/resource_index/parent_prefix_path/camera_interfaces
+[2.471s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/environment/ament_prefix_path.sh
+[2.472s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/environment/ament_prefix_path.dsv
+[2.474s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/environment/path.sh
+[2.479s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/environment/path.dsv
+[2.480s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/local_setup.bash
+[2.480s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/local_setup.sh
+[2.481s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/local_setup.zsh
+[2.484s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/local_setup.dsv
+[2.487s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/package.dsv
+[2.488s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/ament_index/resource_index/packages/camera_interfaces
+[2.492s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/cmake/camera_interfacesConfig.cmake
+[2.495s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/cmake/camera_interfacesConfig-version.cmake
+[2.496s] -- Installing: /home/robot/ros2_ws/install/camera_interfaces/share/camera_interfaces/package.xml
+[2.509s] Invoked command in '/home/robot/ros2_ws/build/camera_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robot/ros2_ws/build/camera_interfaces

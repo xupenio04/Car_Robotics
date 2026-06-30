@@ -1,0 +1,11 @@
+{
+  "package_name": "servo_interfaces",
+  "output_dir": "/home/robot/ros2_ws/build/servo_interfaces/rosidl_generator_type_description/servo_interfaces",
+  "idl_tuples": [
+    "/home/robot/ros2_ws/build/servo_interfaces/rosidl_adapter/servo_interfaces:srv/MoverServo.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,5 @@
+---
+bool detectado
+string cor
+int32 centro_x
+int32 centro_y

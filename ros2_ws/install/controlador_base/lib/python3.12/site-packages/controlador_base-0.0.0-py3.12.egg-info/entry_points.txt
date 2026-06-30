@@ -1,0 +1,2 @@
+[console_scripts]
+controlador_base = controlador_base.controlador_base:main

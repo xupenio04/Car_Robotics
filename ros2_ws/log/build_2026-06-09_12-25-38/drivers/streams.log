@@ -1,0 +1,22 @@
+[3.751s] Invoking command in '/home/robot/ros2_ws/src/drivers': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/drivers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drivers build --build-base /home/robot/ros2_ws/build/drivers/build install --record /home/robot/ros2_ws/build/drivers/install.log --single-version-externally-managed install_data
+[4.950s] running egg_info
+[5.039s] writing ../../build/drivers/drivers.egg-info/PKG-INFO
+[5.040s] writing dependency_links to ../../build/drivers/drivers.egg-info/dependency_links.txt
+[5.043s] writing entry points to ../../build/drivers/drivers.egg-info/entry_points.txt
+[5.044s] writing requirements to ../../build/drivers/drivers.egg-info/requires.txt
+[5.045s] writing top-level names to ../../build/drivers/drivers.egg-info/top_level.txt
+[5.229s] reading manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'
+[5.232s] writing manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'
+[5.233s] running build
+[5.233s] running build_py
+[5.235s] running install
+[5.258s] running install_lib
+[5.350s] running install_data
+[5.351s] running install_egg_info
+[5.445s] removing '/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info' (and everything under it)
+[5.447s] Copying ../../build/drivers/drivers.egg-info to /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info
+[5.452s] running install_scripts
+[6.125s] Installing lidar_diagnostico script to /home/robot/ros2_ws/install/drivers/lib/drivers
+[6.126s] Installing lidar_node script to /home/robot/ros2_ws/install/drivers/lib/drivers
+[6.129s] writing list of installed files to '/home/robot/ros2_ws/build/drivers/install.log'
+[6.271s] Invoked command in '/home/robot/ros2_ws/src/drivers' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/drivers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drivers build --build-base /home/robot/ros2_ws/build/drivers/build install --record /home/robot/ros2_ws/build/drivers/install.log --single-version-externally-managed install_data

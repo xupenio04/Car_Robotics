@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/drivers/drivers.egg-info/PKG-INFO
+writing dependency_links to ../../build/drivers/drivers.egg-info/dependency_links.txt
+writing entry points to ../../build/drivers/drivers.egg-info/entry_points.txt
+writing requirements to ../../build/drivers/drivers.egg-info/requires.txt
+writing top-level names to ../../build/drivers/drivers.egg-info/top_level.txt
+reading manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'
+writing manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/drivers/drivers.egg-info to /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info
+running install_scripts
+Installing lidar_calibracao script to /home/robot/ros2_ws/install/drivers/lib/drivers
+Installing lidar_diagnostico script to /home/robot/ros2_ws/install/drivers/lib/drivers
+Installing lidar_node script to /home/robot/ros2_ws/install/drivers/lib/drivers
+writing list of installed files to '/home/robot/ros2_ws/build/drivers/install.log'

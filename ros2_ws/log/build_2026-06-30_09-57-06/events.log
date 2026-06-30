@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.001630] (camera_interfaces) JobQueued: {'identifier': 'camera_interfaces', 'dependencies': OrderedDict()}
+[0.001763] (camera_pkg) JobQueued: {'identifier': 'camera_pkg', 'dependencies': OrderedDict()}
+[0.001836] (controlador_base) JobQueued: {'identifier': 'controlador_base', 'dependencies': OrderedDict()}
+[0.001901] (drivers) JobQueued: {'identifier': 'drivers', 'dependencies': OrderedDict()}
+[0.001964] (servo_interfaces) JobQueued: {'identifier': 'servo_interfaces', 'dependencies': OrderedDict()}
+[0.002051] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.002124] (controlador_servo) JobQueued: {'identifier': 'controlador_servo', 'dependencies': OrderedDict({'servo_interfaces': '/home/robot/ros2_ws/install/servo_interfaces'})}
+[0.002201] (servo_interfaces) JobStarted: {'identifier': 'servo_interfaces'}
+[0.047230] (camera_interfaces) JobStarted: {'identifier': 'camera_interfaces'}
+[0.067389] (camera_pkg) JobStarted: {'identifier': 'camera_pkg'}
+[0.099499] (controlador_base) JobStarted: {'identifier': 'controlador_base'}
+[0.100933] (-) TimerEvent: {}
+[0.130438] (servo_interfaces) JobProgress: {'identifier': 'servo_interfaces', 'progress': 'cmake'}
+[0.133055] (servo_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/robot/ros2_ws/src/servo_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/install/servo_interfaces'], 'cwd': '/home/robot/ros2_ws/build/servo_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '192.168.1.107 58108 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robot/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/ros2_ws/build/servo_interfaces', 'LC_ALL': 'en_US.UTF-8', 'LIBCAMERA_IPA_MODULE_PATH': '/usr/local/lib/aarch64-linux-gnu/libcamera', 'SSH_CONNECTION': '192.168.1.107 58108 192.168.1.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.150181] (camera_interfaces) JobProgress: {'identifier': 'camera_interfaces', 'progress': 'cmake'}
+[0.155963] (camera_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/robot/ros2_ws/src/camera_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/install/camera_interfaces'], 'cwd': '/home/robot/ros2_ws/build/camera_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '192.168.1.107 58108 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot/ros2_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robot/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/ros2_ws/build/camera_interfaces', 'LC_ALL': 'en_US.UTF-8', 'LIBCAMERA_IPA_MODULE_PATH': '/usr/local/lib/aarch64-linux-gnu/libcamera', 'SSH_CONNECTION': '192.168.1.107 58108 192.168.1.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.201216] (-) TimerEvent: {}
+[0.302084] (-) TimerEvent: {}
+[0.402731] (-) TimerEvent: {}
+[0.503410] (-) TimerEvent: {}
+[0.604166] (-) TimerEvent: {}
+[0.704988] (-) TimerEvent: {}
+[0.805684] (-) TimerEvent: {}
+[0.906427] (-) TimerEvent: {}
+[1.007110] (-) TimerEvent: {}
+[1.107703] (-) TimerEvent: {}
+[1.208553] (-) TimerEvent: {}
+[1.309899] (-) TimerEvent: {}
+[1.410732] (-) TimerEvent: {}
+[1.413097] (servo_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.414249] (camera_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.510922] (-) TimerEvent: {}
+[1.611824] (-) TimerEvent: {}
+[1.712467] (-) TimerEvent: {}
+[1.813116] (-) TimerEvent: {}
+[1.913744] (-) TimerEvent: {}
+[2.014400] (-) TimerEvent: {}
+[2.115085] (-) TimerEvent: {}
+[2.215842] (-) TimerEvent: {}
+[2.288358] (servo_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.290247] (camera_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.316264] (-) TimerEvent: {}
+[2.419246] (-) TimerEvent: {}
+[2.429433] (camera_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.430774] (servo_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.519449] (-) TimerEvent: {}
+[2.622497] (-) TimerEvent: {}
+[2.723250] (-) TimerEvent: {}
+[2.824231] (-) TimerEvent: {}
+[2.926211] (-) TimerEvent: {}
+[3.027220] (-) TimerEvent: {}
+[3.129886] (-) TimerEvent: {}
+[3.138280] (servo_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.139490] (camera_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.189924] (camera_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.191439] (servo_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.195057] (servo_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.195970] (camera_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.197740] (servo_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.199971] (camera_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.230104] (-) TimerEvent: {}
+[3.262589] (camera_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.263613] (servo_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.331080] (-) TimerEvent: {}
+[3.436376] (-) TimerEvent: {}
+[3.537364] (-) TimerEvent: {}
+[3.638148] (-) TimerEvent: {}
+[3.740148] (-) TimerEvent: {}
+[3.840864] (-) TimerEvent: {}
+[3.944180] (-) TimerEvent: {}
+[3.981818] (camera_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.988414] (servo_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.022472] (camera_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.023188] (camera_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.025350] (camera_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.031572] (servo_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.032725] (servo_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.034721] (servo_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.044337] (-) TimerEvent: {}
+[4.077494] (servo_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.078266] (camera_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.144498] (-) TimerEvent: {}
+[4.245140] (-) TimerEvent: {}
+[4.346177] (-) TimerEvent: {}
+[4.448196] (-) TimerEvent: {}
+[4.554153] (-) TimerEvent: {}
+[4.654980] (-) TimerEvent: {}
+[4.758154] (-) TimerEvent: {}
+[4.863170] (-) TimerEvent: {}
+[4.963942] (-) TimerEvent: {}
+[5.064808] (-) TimerEvent: {}
+[5.073372] (camera_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.083894] (servo_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.167136] (-) TimerEvent: {}
+[5.267920] (-) TimerEvent: {}
+[5.369351] (-) TimerEvent: {}
+[5.470847] (-) TimerEvent: {}
+[5.574649] (-) TimerEvent: {}
+[5.675797] (-) TimerEvent: {}
+[5.777376] (-) TimerEvent: {}
+[5.879403] (-) TimerEvent: {}
+[5.981805] (-) TimerEvent: {}
+[6.050042] (camera_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[6.053206] (servo_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.082072] (-) TimerEvent: {}
+[6.132302] (camera_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.182200] (-) TimerEvent: {}
+[6.285491] (-) TimerEvent: {}
+[6.386337] (-) TimerEvent: {}
+[6.488512] (-) TimerEvent: {}
+[6.592135] (-) TimerEvent: {}
+[6.693483] (-) TimerEvent: {}
+[6.760223] (camera_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.780983] (servo_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.781719] (servo_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (rosidl_generate_interfaces):\n'}
+[6.782314] (servo_interfaces) StderrLine: {'line': b'  Unknown CMake command "rosidl_generate_interfaces".\n'}
+[6.782745] (servo_interfaces) StderrLine: {'line': b'\n'}
+[6.783201] (servo_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.796732] (-) TimerEvent: {}
+[6.809824] (servo_interfaces) CommandEnded: {'returncode': 1}
+[6.896930] (-) TimerEvent: {}
+[6.995045] (servo_interfaces) JobEnded: {'identifier': 'servo_interfaces', 'rc': 1}
+[7.001844] (-) TimerEvent: {}
+[7.106124] (-) TimerEvent: {}
+[7.207462] (-) TimerEvent: {}
+[7.219194] (controlador_base) JobEnded: {'identifier': 'controlador_base', 'rc': 'SIGINT'}
+[7.224451] (camera_pkg) JobEnded: {'identifier': 'camera_pkg', 'rc': 'SIGINT'}
+[7.307596] (-) TimerEvent: {}
+[7.377031] (camera_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[7.407761] (-) TimerEvent: {}
+[7.415830] (camera_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[7.507950] (-) TimerEvent: {}
+[7.608639] (-) TimerEvent: {}
+[7.709240] (-) TimerEvent: {}
+[7.809813] (-) TimerEvent: {}
+[7.910424] (-) TimerEvent: {}
+[8.010993] (-) TimerEvent: {}
+[8.016601] (camera_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.029644] (camera_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.039890] (camera_interfaces) StdoutLine: {'line': b'-- Configuring done (7.6s)\n'}
+[8.069390] (camera_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[8.078281] (camera_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/ros2_ws/build/camera_interfaces\n'}
+[8.104959] (camera_interfaces) JobEnded: {'identifier': 'camera_interfaces', 'rc': 'SIGINT'}
+[8.111083] (-) TimerEvent: {}
+[8.117635] (drivers) JobSkipped: {'identifier': 'drivers'}
+[8.117837] (ydlidar_ros2_driver) JobSkipped: {'identifier': 'ydlidar_ros2_driver'}
+[8.117974] (controlador_servo) JobSkipped: {'identifier': 'controlador_servo'}
+[8.118477] (-) EventReactorShutdown: {}

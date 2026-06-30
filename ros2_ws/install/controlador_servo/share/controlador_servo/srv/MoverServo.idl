@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from controlador_servo/srv/MoverServo.srv
+// generated code does not contain a copyright notice
+
+
+module controlador_servo {
+  module srv {
+    struct MoverServo_Request {
+      float angulo;
+    };
+    struct MoverServo_Response {
+      boolean sucesso;
+
+      string mensagem;
+    };
+  };
+};

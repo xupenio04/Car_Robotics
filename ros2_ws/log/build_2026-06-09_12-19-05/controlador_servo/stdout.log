@@ -1,0 +1,41 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (6.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/robot/ros2_ws/build/controlador_servo
+-- Install configuration: ""
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/package_run_dependencies/controlador_servo
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/parent_prefix_path/controlador_servo
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/ament_prefix_path.sh
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/ament_prefix_path.dsv
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/path.sh
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/path.dsv
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.bash
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.sh
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.zsh
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.dsv
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/package.dsv
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/packages/controlador_servo
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servoConfig.cmake
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servoConfig-version.cmake
+-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/package.xml

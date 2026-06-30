@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/drivers/drivers.egg-info
+writing ../../build/drivers/drivers.egg-info/PKG-INFO
+writing dependency_links to ../../build/drivers/drivers.egg-info/dependency_links.txt
+writing entry points to ../../build/drivers/drivers.egg-info/entry_points.txt
+writing requirements to ../../build/drivers/drivers.egg-info/requires.txt
+writing top-level names to ../../build/drivers/drivers.egg-info/top_level.txt
+writing manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'
+reading manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'
+writing manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robot/ros2_ws/build/drivers/build
+creating /home/robot/ros2_ws/build/drivers/build/lib
+creating /home/robot/ros2_ws/build/drivers/build/lib/drivers
+copying drivers/__init__.py -> /home/robot/ros2_ws/build/drivers/build/lib/drivers
+copying drivers/lidar_node.py -> /home/robot/ros2_ws/build/drivers/build/lib/drivers
+running install
+running install_lib
+creating /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers
+copying /home/robot/ros2_ws/build/drivers/build/lib/drivers/__init__.py -> /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers
+copying /home/robot/ros2_ws/build/drivers/build/lib/drivers/lidar_node.py -> /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers
+byte-compiling /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers/lidar_node.py to lidar_node.cpython-312.pyc
+running install_data
+creating /home/robot/ros2_ws/install/drivers/share/ament_index
+creating /home/robot/ros2_ws/install/drivers/share/ament_index/resource_index
+creating /home/robot/ros2_ws/install/drivers/share/ament_index/resource_index/packages
+copying resource/drivers -> /home/robot/ros2_ws/install/drivers/share/ament_index/resource_index/packages
+copying package.xml -> /home/robot/ros2_ws/install/drivers/share/drivers
+running install_egg_info
+Copying ../../build/drivers/drivers.egg-info to /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info
+running install_scripts
+Installing lidar_node script to /home/robot/ros2_ws/install/drivers/lib/drivers
+writing list of installed files to '/home/robot/ros2_ws/build/drivers/install.log'

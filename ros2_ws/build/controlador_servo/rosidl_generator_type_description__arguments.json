@@ -1,0 +1,11 @@
+{
+  "package_name": "controlador_servo",
+  "output_dir": "/home/robot/ros2_ws/build/controlador_servo/rosidl_generator_type_description/controlador_servo",
+  "idl_tuples": [
+    "/home/robot/ros2_ws/build/controlador_servo/rosidl_adapter/controlador_servo:srv/MoverServo.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

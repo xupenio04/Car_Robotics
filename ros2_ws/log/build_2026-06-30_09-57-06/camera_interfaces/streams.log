@@ -1,0 +1,25 @@
+[0.112s] Invoking command in '/home/robot/ros2_ws/build/camera_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/ros2_ws/src/camera_interfaces -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/install/camera_interfaces
+[1.367s] -- The C compiler identification is GNU 13.3.0
+[2.243s] -- The CXX compiler identification is GNU 13.3.0
+[2.383s] -- Detecting C compiler ABI info
+[3.093s] -- Detecting C compiler ABI info - done
+[3.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.149s] -- Detecting C compile features
+[3.153s] -- Detecting C compile features - done
+[3.216s] -- Detecting CXX compiler ABI info
+[3.935s] -- Detecting CXX compiler ABI info - done
+[3.976s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.976s] -- Detecting CXX compile features
+[3.979s] -- Detecting CXX compile features - done
+[4.031s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.027s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.003s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[6.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.330s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.369s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.970s] -- Added test 'lint_cmake' to check CMake code style
+[7.983s] -- Added test 'xmllint' to check XML markup files
+[7.993s] -- Configuring done (7.6s)
+[8.022s] -- Generating done (0.0s)
+[8.031s] -- Build files have been written to: /home/robot/ros2_ws/build/camera_interfaces

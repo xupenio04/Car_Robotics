@@ -1,0 +1,538 @@
+[0.000000] (-) TimerEvent: {}
+[0.000454] (controlador_servo) JobQueued: {'identifier': 'controlador_servo', 'dependencies': OrderedDict()}
+[0.001039] (drivers) JobQueued: {'identifier': 'drivers', 'dependencies': OrderedDict()}
+[0.001803] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.001878] (controlador_servo) JobStarted: {'identifier': 'controlador_servo'}
+[0.031120] (drivers) JobStarted: {'identifier': 'drivers'}
+[0.062999] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.090334] (controlador_servo) JobProgress: {'identifier': 'controlador_servo', 'progress': 'cmake'}
+[0.093292] (controlador_servo) JobProgress: {'identifier': 'controlador_servo', 'progress': 'build'}
+[0.095691] (controlador_servo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/ros2_ws/build/controlador_servo', '--', '-j4', '-l4'], 'cwd': '/home/robot/ros2_ws/build/controlador_servo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '192.168.1.107 58212 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot/ros2_ws/src/controlador_servo', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robot/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robot/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robot/ros2_ws/install/ydlidar_ros2_driver:/home/robot/ros2_ws/install/drivers:/home/robot/ros2_ws/install/controlador_servo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/ros2_ws/build/controlador_servo', 'LC_ALL': 'en_US.UTF-8', 'LIBCAMERA_IPA_MODULE_PATH': '/usr/local/lib/aarch64-linux-gnu/libcamera', 'SSH_CONNECTION': '192.168.1.107 58212 192.168.1.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/ros2_ws/install/ydlidar_ros2_driver:/home/robot/ros2_ws/install/controlador_servo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy'}), 'shell': False}
+[0.104541] (-) TimerEvent: {}
+[0.205132] (-) TimerEvent: {}
+[0.305815] (-) TimerEvent: {}
+[0.406515] (-) TimerEvent: {}
+[0.507261] (-) TimerEvent: {}
+[0.607887] (-) TimerEvent: {}
+[0.708667] (-) TimerEvent: {}
+[0.809616] (-) TimerEvent: {}
+[0.910195] (-) TimerEvent: {}
+[1.010773] (-) TimerEvent: {}
+[1.111544] (-) TimerEvent: {}
+[1.212792] (-) TimerEvent: {}
+[1.244348] (controlador_servo) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.247152] (controlador_servo) StdoutLine: {'line': b'-- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.248446] (controlador_servo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.249031] (controlador_servo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.249506] (controlador_servo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.249859] (controlador_servo) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.250371] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[1.252726] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[1.256315] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/ros2_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/robot/ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '192.168.1.107 58212 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot/ros2_ws/src/controlador_servo', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robot/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robot/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robot/ros2_ws/install/ydlidar_ros2_driver:/home/robot/ros2_ws/install/drivers:/home/robot/ros2_ws/install/controlador_servo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/ros2_ws/build/ydlidar_ros2_driver', 'LC_ALL': 'en_US.UTF-8', 'LIBCAMERA_IPA_MODULE_PATH': '/usr/local/lib/aarch64-linux-gnu/libcamera', 'SSH_CONNECTION': '192.168.1.107 58212 192.168.1.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/ros2_ws/install/ydlidar_ros2_driver:/home/robot/ros2_ws/install/controlador_servo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy'}), 'shell': False}
+[1.315248] (-) TimerEvent: {}
+[1.416158] (-) TimerEvent: {}
+[1.517143] (-) TimerEvent: {}
+[1.621365] (-) TimerEvent: {}
+[1.637374] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_node\n'}
+[1.643237] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[1.714007] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[1.715232] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[1.721534] (-) TimerEvent: {}
+[1.789119] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/ros2_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/robot/ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '192.168.1.107 58212 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot/ros2_ws/src/controlador_servo', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robot/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robot/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robot/ros2_ws/install/ydlidar_ros2_driver:/home/robot/ros2_ws/install/drivers:/home/robot/ros2_ws/install/controlador_servo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/ros2_ws/build/ydlidar_ros2_driver', 'LC_ALL': 'en_US.UTF-8', 'LIBCAMERA_IPA_MODULE_PATH': '/usr/local/lib/aarch64-linux-gnu/libcamera', 'SSH_CONNECTION': '192.168.1.107 58212 192.168.1.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/ros2_ws/install/ydlidar_ros2_driver:/home/robot/ros2_ws/install/controlador_servo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy'}), 'shell': False}
+[1.821767] (-) TimerEvent: {}
+[1.836557] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.838817] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[1.841934] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[1.843481] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch\n'}
+[1.844423] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[1.845137] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[1.846610] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[1.847983] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params\n'}
+[1.849293] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[1.850924] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[1.852279] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[1.853492] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[1.854756] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[1.855421] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[1.855960] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[1.857324] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[1.858384] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[1.858950] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[1.859543] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[1.860233] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup\n'}
+[1.860951] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[1.861786] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config\n'}
+[1.862747] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[1.863389] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[1.863851] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[1.864635] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[1.866344] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[1.869645] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[1.870539] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[1.871618] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[1.872295] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[1.873881] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[1.874581] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[1.875047] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[1.875732] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[1.876279] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[1.876809] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[1.878443] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[1.879328] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[1.922029] (-) TimerEvent: {}
+[1.968035] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[2.022198] (-) TimerEvent: {}
+[2.122812] (-) TimerEvent: {}
+[2.223472] (-) TimerEvent: {}
+[2.324194] (-) TimerEvent: {}
+[2.424911] (-) TimerEvent: {}
+[2.525574] (-) TimerEvent: {}
+[2.626272] (-) TimerEvent: {}
+[2.660922] (controlador_servo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.726487] (-) TimerEvent: {}
+[2.827224] (-) TimerEvent: {}
+[2.927849] (-) TimerEvent: {}
+[3.028601] (-) TimerEvent: {}
+[3.120126] (controlador_servo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.128747] (-) TimerEvent: {}
+[3.229356] (-) TimerEvent: {}
+[3.330036] (-) TimerEvent: {}
+[3.430799] (-) TimerEvent: {}
+[3.531449] (-) TimerEvent: {}
+[3.632057] (-) TimerEvent: {}
+[3.723901] (controlador_servo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.728979] (controlador_servo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.732220] (-) TimerEvent: {}
+[3.832845] (-) TimerEvent: {}
+[3.933986] (-) TimerEvent: {}
+[4.035003] (-) TimerEvent: {}
+[4.135706] (-) TimerEvent: {}
+[4.236758] (-) TimerEvent: {}
+[4.337545] (-) TimerEvent: {}
+[4.438989] (-) TimerEvent: {}
+[4.539963] (-) TimerEvent: {}
+[4.640746] (-) TimerEvent: {}
+[4.741806] (-) TimerEvent: {}
+[4.813113] (drivers) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drivers', 'build', '--build-base', '/home/robot/ros2_ws/build/drivers/build', 'install', '--record', '/home/robot/ros2_ws/build/drivers/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot/ros2_ws/src/drivers', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '192.168.1.107 58212 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot/ros2_ws/src/controlador_servo', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robot/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robot/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robot/ros2_ws/install/ydlidar_ros2_driver:/home/robot/ros2_ws/install/drivers:/home/robot/ros2_ws/install/controlador_servo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/ros2_ws/build/drivers', 'LC_ALL': 'en_US.UTF-8', 'LIBCAMERA_IPA_MODULE_PATH': '/usr/local/lib/aarch64-linux-gnu/libcamera', 'SSH_CONNECTION': '192.168.1.107 58212 192.168.1.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/ros2_ws/build/drivers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/ros2_ws/install/ydlidar_ros2_driver:/home/robot/ros2_ws/install/controlador_servo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.841982] (-) TimerEvent: {}
+[4.942667] (-) TimerEvent: {}
+[5.043854] (-) TimerEvent: {}
+[5.142323] (controlador_servo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.143960] (-) TimerEvent: {}
+[5.244710] (-) TimerEvent: {}
+[5.340661] (controlador_servo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.344867] (-) TimerEvent: {}
+[5.347575] (controlador_servo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.410619] (controlador_servo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.411245] (controlador_servo) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[5.414518] (controlador_servo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.417149] (controlador_servo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.428244] (controlador_servo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.441163] (controlador_servo) StdoutLine: {'line': b'-- Configuring done (5.2s)\n'}
+[5.445019] (-) TimerEvent: {}
+[5.545637] (-) TimerEvent: {}
+[5.646274] (-) TimerEvent: {}
+[5.687653] (controlador_servo) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[5.746443] (-) TimerEvent: {}
+[5.753706] (controlador_servo) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/ros2_ws/build/controlador_servo\n'}
+[5.848174] (-) TimerEvent: {}
+[5.948843] (-) TimerEvent: {}
+[5.959404] (controlador_servo) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.974275] (controlador_servo) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[6.021733] (controlador_servo) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_controlador_servo\n'}
+[6.051224] (-) TimerEvent: {}
+[6.152035] (-) TimerEvent: {}
+[6.252782] (-) TimerEvent: {}
+[6.355745] (-) TimerEvent: {}
+[6.456680] (-) TimerEvent: {}
+[6.559461] (-) TimerEvent: {}
+[6.566343] (drivers) StdoutLine: {'line': b'running egg_info\n'}
+[6.659825] (-) TimerEvent: {}
+[6.727698] (drivers) StdoutLine: {'line': b'writing ../../build/drivers/drivers.egg-info/PKG-INFO\n'}
+[6.730449] (drivers) StdoutLine: {'line': b'writing dependency_links to ../../build/drivers/drivers.egg-info/dependency_links.txt\n'}
+[6.734738] (drivers) StdoutLine: {'line': b'writing entry points to ../../build/drivers/drivers.egg-info/entry_points.txt\n'}
+[6.737207] (drivers) StdoutLine: {'line': b'writing requirements to ../../build/drivers/drivers.egg-info/requires.txt\n'}
+[6.740058] (drivers) StdoutLine: {'line': b'writing top-level names to ../../build/drivers/drivers.egg-info/top_level.txt\n'}
+[6.759951] (-) TimerEvent: {}
+[6.862496] (-) TimerEvent: {}
+[6.965645] (-) TimerEvent: {}
+[7.068663] (-) TimerEvent: {}
+[7.075326] (controlador_servo) StdoutLine: {'line': b'[  5%] Built target controlador_servo__rosidl_generator_type_description\n'}
+[7.119971] (drivers) StdoutLine: {'line': b"reading manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'\n"}
+[7.133880] (drivers) StdoutLine: {'line': b"writing manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'\n"}
+[7.134710] (drivers) StdoutLine: {'line': b'running build\n'}
+[7.136481] (drivers) StdoutLine: {'line': b'running build_py\n'}
+[7.139403] (drivers) StdoutLine: {'line': b'running install\n'}
+[7.171381] (-) TimerEvent: {}
+[7.187011] (controlador_servo) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.201407] (drivers) StdoutLine: {'line': b'running install_lib\n'}
+[7.237105] (controlador_servo) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.273232] (-) TimerEvent: {}
+[7.374042] (-) TimerEvent: {}
+[7.421259] (controlador_servo) StdoutLine: {'line': b'[ 11%] Built target controlador_servo__rs\n'}
+[7.429089] (drivers) StdoutLine: {'line': b'running install_data\n'}
+[7.429891] (drivers) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.477232] (-) TimerEvent: {}
+[7.577948] (-) TimerEvent: {}
+[7.616165] (drivers) StdoutLine: {'line': b"removing '/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.621245] (drivers) StdoutLine: {'line': b'Copying ../../build/drivers/drivers.egg-info to /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info\n'}
+[7.629316] (drivers) StdoutLine: {'line': b'running install_scripts\n'}
+[7.691246] (-) TimerEvent: {}
+[7.791938] (-) TimerEvent: {}
+[7.821548] (controlador_servo) StdoutLine: {'line': b'running egg_info\n'}
+[7.829210] (controlador_servo) StdoutLine: {'line': b'creating controlador_servo.egg-info\n'}
+[7.892179] (-) TimerEvent: {}
+[7.988264] (controlador_servo) StdoutLine: {'line': b'writing controlador_servo.egg-info/PKG-INFO\n'}
+[7.989918] (controlador_servo) StdoutLine: {'line': b'writing dependency_links to controlador_servo.egg-info/dependency_links.txt\n'}
+[7.992989] (controlador_servo) StdoutLine: {'line': b'writing top-level names to controlador_servo.egg-info/top_level.txt\n'}
+[7.993637] (-) TimerEvent: {}
+[7.996373] (controlador_servo) StdoutLine: {'line': b"writing manifest file 'controlador_servo.egg-info/SOURCES.txt'\n"}
+[8.093841] (-) TimerEvent: {}
+[8.195391] (-) TimerEvent: {}
+[8.296011] (-) TimerEvent: {}
+[8.399222] (-) TimerEvent: {}
+[8.427306] (controlador_servo) StdoutLine: {'line': b"reading manifest file 'controlador_servo.egg-info/SOURCES.txt'\n"}
+[8.429661] (controlador_servo) StdoutLine: {'line': b"writing manifest file 'controlador_servo.egg-info/SOURCES.txt'\n"}
+[8.499417] (-) TimerEvent: {}
+[8.602601] (-) TimerEvent: {}
+[8.671194] (controlador_servo) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_controlador_servo_egg\n'}
+[8.704277] (-) TimerEvent: {}
+[8.805150] (-) TimerEvent: {}
+[8.813635] (drivers) StdoutLine: {'line': b'Installing lidar_diagnostico script to /home/robot/ros2_ws/install/drivers/lib/drivers\n'}
+[8.817015] (drivers) StdoutLine: {'line': b'Installing lidar_node script to /home/robot/ros2_ws/install/drivers/lib/drivers\n'}
+[8.824611] (drivers) StdoutLine: {'line': b"writing list of installed files to '/home/robot/ros2_ws/build/drivers/install.log'\n"}
+[8.907258] (-) TimerEvent: {}
+[8.971462] (controlador_servo) StdoutLine: {'line': b'[ 11%] Built target controlador_servo__cpp\n'}
+[9.007492] (-) TimerEvent: {}
+[9.030555] (drivers) CommandEnded: {'returncode': 0}
+[9.068289] (drivers) JobEnded: {'identifier': 'drivers', 'rc': 0}
+[9.103367] (controlador_servo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/controlador_servo__rosidl_generator_c.dir/rosidl_generator_c/controlador_servo/srv/detail/mover_servo__description.c.o\x1b[0m\n'}
+[9.104544] (controlador_servo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/controlador_servo__rosidl_generator_c.dir/rosidl_generator_c/controlador_servo/srv/detail/mover_servo__type_support.c.o\x1b[0m\n'}
+[9.105444] (controlador_servo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/controlador_servo__rosidl_generator_c.dir/rosidl_generator_c/controlador_servo/srv/detail/mover_servo__functions.c.o\x1b[0m\n'}
+[9.107626] (-) TimerEvent: {}
+[9.208217] (-) TimerEvent: {}
+[9.309367] (-) TimerEvent: {}
+[9.410958] (-) TimerEvent: {}
+[9.511717] (-) TimerEvent: {}
+[9.612517] (-) TimerEvent: {}
+[9.655228] (controlador_servo) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcontrolador_servo__rosidl_generator_c.so\x1b[0m\n'}
+[9.712728] (-) TimerEvent: {}
+[9.813448] (-) TimerEvent: {}
+[9.879611] (controlador_servo) StdoutLine: {'line': b'[ 22%] Built target controlador_servo__rosidl_generator_c\n'}
+[9.916251] (-) TimerEvent: {}
+[9.946463] (controlador_servo) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.947588] (controlador_servo) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.952267] (controlador_servo) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.954460] (controlador_servo) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.018203] (-) TimerEvent: {}
+[10.118912] (-) TimerEvent: {}
+[10.219903] (-) TimerEvent: {}
+[10.321985] (-) TimerEvent: {}
+[10.424653] (-) TimerEvent: {}
+[10.526762] (-) TimerEvent: {}
+[10.630533] (-) TimerEvent: {}
+[10.731458] (-) TimerEvent: {}
+[10.834227] (-) TimerEvent: {}
+[10.935249] (-) TimerEvent: {}
+[11.037387] (-) TimerEvent: {}
+[11.142034] (-) TimerEvent: {}
+[11.246838] (-) TimerEvent: {}
+[11.318028] (controlador_servo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/controlador_servo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controlador_servo/srv/mover_servo__type_support.cpp.o\x1b[0m\n'}
+[11.347026] (-) TimerEvent: {}
+[11.355521] (controlador_servo) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/controlador_servo__rosidl_typesupport_c.dir/rosidl_typesupport_c/controlador_servo/srv/mover_servo__type_support.cpp.o\x1b[0m\n'}
+[11.447373] (-) TimerEvent: {}
+[11.474023] (controlador_servo) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/controlador_servo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controlador_servo/srv/detail/mover_servo__type_support.c.o\x1b[0m\n'}
+[11.547540] (-) TimerEvent: {}
+[11.650699] (-) TimerEvent: {}
+[11.693415] (controlador_servo) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/controlador_servo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controlador_servo/srv/detail/mover_servo__type_support_c.cpp.o\x1b[0m\n'}
+[11.722285] (controlador_servo) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcontrolador_servo__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.750983] (-) TimerEvent: {}
+[11.805453] (controlador_servo) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libcontrolador_servo__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.852271] (-) TimerEvent: {}
+[11.954431] (-) TimerEvent: {}
+[11.963431] (controlador_servo) StdoutLine: {'line': b'[ 51%] Built target controlador_servo__rosidl_typesupport_c\n'}
+[12.017117] (controlador_servo) StdoutLine: {'line': b'[ 51%] Built target controlador_servo__rosidl_typesupport_introspection_c\n'}
+[12.030638] (controlador_servo) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.054667] (-) TimerEvent: {}
+[12.083132] (controlador_servo) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.157252] (-) TimerEvent: {}
+[12.258216] (-) TimerEvent: {}
+[12.358988] (-) TimerEvent: {}
+[12.463256] (-) TimerEvent: {}
+[12.564040] (-) TimerEvent: {}
+[12.664783] (-) TimerEvent: {}
+[12.767502] (-) TimerEvent: {}
+[12.868281] (-) TimerEvent: {}
+[12.971241] (-) TimerEvent: {}
+[13.072149] (-) TimerEvent: {}
+[13.173051] (-) TimerEvent: {}
+[13.274590] (-) TimerEvent: {}
+[13.376628] (-) TimerEvent: {}
+[13.481018] (-) TimerEvent: {}
+[13.582157] (-) TimerEvent: {}
+[13.669455] (controlador_servo) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/controlador_servo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controlador_servo/srv/detail/mover_servo__type_support.cpp.o\x1b[0m\n'}
+[13.684270] (-) TimerEvent: {}
+[13.785494] (-) TimerEvent: {}
+[13.841618] (controlador_servo) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/controlador_servo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controlador_servo/srv/detail/dds_fastrtps/mover_servo__type_support.cpp.o\x1b[0m\n'}
+[13.887362] (-) TimerEvent: {}
+[13.990242] (-) TimerEvent: {}
+[14.091037] (-) TimerEvent: {}
+[14.193678] (-) TimerEvent: {}
+[14.297407] (-) TimerEvent: {}
+[14.353437] (controlador_servo) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcontrolador_servo__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.400346] (-) TimerEvent: {}
+[14.501320] (-) TimerEvent: {}
+[14.604765] (-) TimerEvent: {}
+[14.710262] (-) TimerEvent: {}
+[14.811288] (-) TimerEvent: {}
+[14.849936] (controlador_servo) StdoutLine: {'line': b'[ 65%] Built target controlador_servo__rosidl_typesupport_cpp\n'}
+[14.913260] (-) TimerEvent: {}
+[15.014058] (-) TimerEvent: {}
+[15.117282] (-) TimerEvent: {}
+[15.218000] (-) TimerEvent: {}
+[15.243583] (controlador_servo) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libcontrolador_servo__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.320239] (-) TimerEvent: {}
+[15.421248] (-) TimerEvent: {}
+[15.526262] (-) TimerEvent: {}
+[15.627173] (-) TimerEvent: {}
+[15.691786] (controlador_servo) StdoutLine: {'line': b'[ 68%] Built target controlador_servo__rosidl_typesupport_fastrtps_c\n'}
+[15.727380] (-) TimerEvent: {}
+[15.828152] (-) TimerEvent: {}
+[15.929447] (-) TimerEvent: {}
+[16.030209] (-) TimerEvent: {}
+[16.131038] (-) TimerEvent: {}
+[16.231553] (controlador_servo) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libcontrolador_servo__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.232558] (-) TimerEvent: {}
+[16.333246] (-) TimerEvent: {}
+[16.433983] (-) TimerEvent: {}
+[16.534802] (-) TimerEvent: {}
+[16.621761] (controlador_servo) StdoutLine: {'line': b'[ 71%] Built target controlador_servo__rosidl_typesupport_introspection_cpp\n'}
+[16.635009] (-) TimerEvent: {}
+[16.735787] (-) TimerEvent: {}
+[16.836485] (-) TimerEvent: {}
+[16.937174] (-) TimerEvent: {}
+[17.037782] (-) TimerEvent: {}
+[17.138447] (-) TimerEvent: {}
+[17.239142] (-) TimerEvent: {}
+[17.296202] (controlador_servo) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcontrolador_servo__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[17.339253] (-) TimerEvent: {}
+[17.439883] (-) TimerEvent: {}
+[17.540659] (-) TimerEvent: {}
+[17.641444] (-) TimerEvent: {}
+[17.669948] (controlador_servo) StdoutLine: {'line': b'[ 74%] Built target controlador_servo__rosidl_typesupport_fastrtps_cpp\n'}
+[17.741657] (-) TimerEvent: {}
+[17.789879] (controlador_servo) StdoutLine: {'line': b'[ 74%] Built target controlador_servo\n'}
+[17.841856] (-) TimerEvent: {}
+[17.909450] (controlador_servo) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.942011] (-) TimerEvent: {}
+[18.042606] (-) TimerEvent: {}
+[18.143161] (-) TimerEvent: {}
+[18.243720] (-) TimerEvent: {}
+[18.344363] (-) TimerEvent: {}
+[18.444958] (-) TimerEvent: {}
+[18.545539] (-) TimerEvent: {}
+[18.646123] (-) TimerEvent: {}
+[18.746649] (-) TimerEvent: {}
+[18.847214] (-) TimerEvent: {}
+[18.947802] (-) TimerEvent: {}
+[19.048378] (-) TimerEvent: {}
+[19.148872] (-) TimerEvent: {}
+[19.249516] (-) TimerEvent: {}
+[19.350241] (-) TimerEvent: {}
+[19.427336] (controlador_servo) StdoutLine: {'line': b'[ 77%] Built target controlador_servo__py\n'}
+[19.450439] (-) TimerEvent: {}
+[19.548552] (controlador_servo) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/controlador_servo__rosidl_generator_py.dir/rosidl_generator_py/controlador_servo/srv/_mover_servo_s.c.o\x1b[0m\n'}
+[19.550603] (-) TimerEvent: {}
+[19.651243] (-) TimerEvent: {}
+[19.751858] (-) TimerEvent: {}
+[19.852694] (-) TimerEvent: {}
+[19.953361] (-) TimerEvent: {}
+[20.053997] (-) TimerEvent: {}
+[20.154759] (-) TimerEvent: {}
+[20.255459] (-) TimerEvent: {}
+[20.356161] (-) TimerEvent: {}
+[20.456808] (-) TimerEvent: {}
+[20.514129] (controlador_servo) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libcontrolador_servo__rosidl_generator_py.so\x1b[0m\n'}
+[20.556988] (-) TimerEvent: {}
+[20.657659] (-) TimerEvent: {}
+[20.758407] (-) TimerEvent: {}
+[20.760974] (controlador_servo) StdoutLine: {'line': b'[ 82%] Built target controlador_servo__rosidl_generator_py\n'}
+[20.858614] (-) TimerEvent: {}
+[20.887411] (controlador_servo) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/controlador_servo_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[20.888443] (controlador_servo) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/controlador_servo_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[20.889439] (controlador_servo) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/controlador_servo_s__rosidl_typesupport_c.dir/rosidl_generator_py/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[20.958802] (-) TimerEvent: {}
+[21.059440] (-) TimerEvent: {}
+[21.160057] (-) TimerEvent: {}
+[21.261258] (-) TimerEvent: {}
+[21.363173] (-) TimerEvent: {}
+[21.465004] (-) TimerEvent: {}
+[21.473512] (controlador_servo) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/controlador_servo/controlador_servo_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.510013] (controlador_servo) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/controlador_servo/controlador_servo_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.527217] (controlador_servo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/controlador_servo/controlador_servo_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[21.566249] (-) TimerEvent: {}
+[21.666947] (-) TimerEvent: {}
+[21.677530] (controlador_servo) StdoutLine: {'line': b'[100%] Built target controlador_servo_s__rosidl_typesupport_c\n'}
+[21.715529] (controlador_servo) StdoutLine: {'line': b'[100%] Built target controlador_servo_s__rosidl_typesupport_introspection_c\n'}
+[21.729810] (controlador_servo) StdoutLine: {'line': b'[100%] Built target controlador_servo_s__rosidl_typesupport_fastrtps_c\n'}
+[21.767166] (-) TimerEvent: {}
+[21.792550] (controlador_servo) CommandEnded: {'returncode': 0}
+[21.795238] (controlador_servo) JobProgress: {'identifier': 'controlador_servo', 'progress': 'install'}
+[21.796366] (controlador_servo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/ros2_ws/build/controlador_servo'], 'cwd': '/home/robot/ros2_ws/build/controlador_servo', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '192.168.1.107 58212 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot/ros2_ws/src/controlador_servo', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/robot/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/robot/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/robot/ros2_ws/install/ydlidar_ros2_driver:/home/robot/ros2_ws/install/drivers:/home/robot/ros2_ws/install/controlador_servo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/ros2_ws/build/controlador_servo', 'LC_ALL': 'en_US.UTF-8', 'LIBCAMERA_IPA_MODULE_PATH': '/usr/local/lib/aarch64-linux-gnu/libcamera', 'SSH_CONNECTION': '192.168.1.107 58212 192.168.1.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robot/ros2_ws/install/ydlidar_ros2_driver:/home/robot/ros2_ws/install/controlador_servo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy'}), 'shell': False}
+[21.845214] (controlador_servo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.846001] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/rosidl_interfaces/controlador_servo\n'}
+[21.847810] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/srv/MoverServo.json\n'}
+[21.849000] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo\n'}
+[21.849857] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg\n'}
+[21.850548] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.851802] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv\n'}
+[21.852526] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/mover_servo.h\n'}
+[21.853591] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail\n'}
+[21.854369] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__functions.c\n'}
+[21.855775] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__type_support.h\n'}
+[21.856961] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__struct.h\n'}
+[21.858121] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__type_support.c\n'}
+[21.859273] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__functions.h\n'}
+[21.860650] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__description.c\n'}
+[21.862206] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/library_path.sh\n'}
+[21.863442] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/library_path.dsv\n'}
+[21.864997] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_generator_c.so\n'}
+[21.867290] (-) TimerEvent: {}
+[21.868119] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_generator_c.so" to ""\n'}
+[21.868739] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo\n'}
+[21.869242] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg\n'}
+[21.869724] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.870785] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv\n'}
+[21.871402] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail\n'}
+[21.871823] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__rosidl_typesupport_fastrtps_c.h\n'}
+[21.873361] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_fastrtps_c.so\n'}
+[21.876447] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.877033] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo\n'}
+[21.877480] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg\n'}
+[21.877912] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.878922] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv\n'}
+[21.879439] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail\n'}
+[21.879839] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__type_support.c\n'}
+[21.881444] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__rosidl_typesupport_introspection_c.h\n'}
+[21.882950] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_introspection_c.so\n'}
+[21.885959] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.886560] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_c.so\n'}
+[21.889343] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_c.so" to ""\n'}
+[21.889877] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo\n'}
+[21.890382] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg\n'}
+[21.890841] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[21.891725] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv\n'}
+[21.892215] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/mover_servo.hpp\n'}
+[21.893322] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail\n'}
+[21.893842] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__builder.hpp\n'}
+[21.895010] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__traits.hpp\n'}
+[21.896233] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__struct.hpp\n'}
+[21.897531] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__type_support.hpp\n'}
+[21.898821] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo\n'}
+[21.899397] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg\n'}
+[21.899891] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.900992] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv\n'}
+[21.901530] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail\n'}
+[21.901999] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.903290] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/dds_fastrtps\n'}
+[21.904369] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.908238] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[21.908880] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo\n'}
+[21.909272] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv\n'}
+[21.909729] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail\n'}
+[21.910136] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.911294] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__type_support.cpp\n'}
+[21.912992] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_introspection_cpp.so\n'}
+[21.916324] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[21.916898] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_cpp.so\n'}
+[21.919984] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_cpp.so" to ""\n'}
+[21.920600] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/pythonpath.sh\n'}
+[21.921630] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/pythonpath.dsv\n'}
+[21.922790] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo-0.0.0-py3.12.egg-info\n'}
+[21.923782] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[21.924996] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[21.926162] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[21.927307] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[21.928609] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo\n'}
+[21.929416] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_c.so\n'}
+[21.931343] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[21.932727] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/__init__.py\n'}
+[21.933762] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_c.c\n'}
+[21.935041] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv\n'}
+[21.935776] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv/__init__.py\n'}
+[21.936912] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv/_mover_servo_s.c\n'}
+[21.938148] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv/_mover_servo.py\n'}
+[21.939429] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_fastrtps_c.so\n'}
+[21.941338] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_introspection_c.so\n'}
+[21.943233] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[21.967434] (-) TimerEvent: {}
+[22.068021] (-) TimerEvent: {}
+[22.139817] (controlador_servo) StdoutLine: {'line': b"Listing '/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo'...\n"}
+[22.140997] (controlador_servo) StdoutLine: {'line': b"Compiling '/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/__init__.py'...\n"}
+[22.141916] (controlador_servo) StdoutLine: {'line': b"Listing '/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv'...\n"}
+[22.142865] (controlador_servo) StdoutLine: {'line': b"Compiling '/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv/__init__.py'...\n"}
+[22.143767] (controlador_servo) StdoutLine: {'line': b"Compiling '/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv/_mover_servo.py'...\n"}
+[22.168258] (-) TimerEvent: {}
+[22.172407] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_fastrtps_c.so\n'}
+[22.175408] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.177043] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_introspection_c.so\n'}
+[22.180275] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.181776] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_c.so\n'}
+[22.184764] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_c.so" to ""\n'}
+[22.185359] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_generator_py.so\n'}
+[22.188383] (controlador_servo) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_generator_py.so" to ""\n'}
+[22.189196] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/rust_packages/controlador_servo\n'}
+[22.190464] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust\n'}
+[22.191136] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/build.rs\n'}
+[22.192162] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/src\n'}
+[22.192833] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/src/lib.rs\n'}
+[22.193884] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/src/srv\n'}
+[22.194589] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/src/srv/rmw.rs\n'}
+[22.195719] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/src/srv.rs\n'}
+[22.196780] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/Cargo.toml\n'}
+[22.198060] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/srv/MoverServo.idl\n'}
+[22.199264] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/srv/MoverServo.srv\n'}
+[22.200687] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/controlador_servo/controlador_servo_node.py\n'}
+[22.201971] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/package_run_dependencies/controlador_servo\n'}
+[22.203591] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/parent_prefix_path/controlador_servo\n'}
+[22.205086] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/ament_prefix_path.sh\n'}
+[22.205614] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/ament_prefix_path.dsv\n'}
+[22.206132] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/path.sh\n'}
+[22.206683] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/path.dsv\n'}
+[22.207103] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.bash\n'}
+[22.207475] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.sh\n'}
+[22.208421] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.zsh\n'}
+[22.208904] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.dsv\n'}
+[22.210165] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/package.dsv\n'}
+[22.211505] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/packages/controlador_servo\n'}
+[22.212048] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_generator_cExport.cmake\n'}
+[22.213730] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.215347] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.216957] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[22.218662] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.220262] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.221914] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_cExport.cmake\n'}
+[22.223433] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.225012] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_generator_cppExport.cmake\n'}
+[22.226676] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.228234] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[22.229910] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.231486] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.233162] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_cppExport.cmake\n'}
+[22.234682] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.236279] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_generator_pyExport.cmake\n'}
+[22.237848] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[22.239323] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/rosidl_cmake-extras.cmake\n'}
+[22.240580] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.242096] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.243446] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.244861] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.246240] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.247621] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.248960] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servoConfig.cmake\n'}
+[22.250227] (controlador_servo) StdoutLine: {'line': b'-- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servoConfig-version.cmake\n'}
+[22.250776] (controlador_servo) StdoutLine: {'line': b'-- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/package.xml\n'}
+[22.259793] (controlador_servo) CommandEnded: {'returncode': 0}
+[22.268386] (-) TimerEvent: {}
+[22.360925] (controlador_servo) JobEnded: {'identifier': 'controlador_servo', 'rc': 0}
+[22.363764] (-) EventReactorShutdown: {}

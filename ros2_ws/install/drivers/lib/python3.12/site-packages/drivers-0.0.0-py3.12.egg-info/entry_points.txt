@@ -1,0 +1,5 @@
+[console_scripts]
+lidar_calibracao = drivers.lidar_calibracao:main
+lidar_diagnostico = drivers.lidar_diagnostico:main
+lidar_node = drivers.lidar_node:main
+localizacao_angular = drivers.localizacao_angular:main

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "controlador_servo/srv/MoverServo_Response",
+      "fields": [
+        {
+          "name": "sucesso",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "mensagem",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "controlador_servo/srv/MoverServo_Response",
+      "hash_string": "RIHS01_c835302cef893ea04c18f1defea00f1b4b303b25c0a1798db9e92adeffa515c7"
+    }
+  ]
+}

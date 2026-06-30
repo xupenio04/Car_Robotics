@@ -1,0 +1,9 @@
+/home/robot/ros2_ws/build/camera_interfaces/CMakeFiles/uninstall.dir
+/home/robot/ros2_ws/build/camera_interfaces/CMakeFiles/camera_interfaces_uninstall.dir
+/home/robot/ros2_ws/build/camera_interfaces/CMakeFiles/test.dir
+/home/robot/ros2_ws/build/camera_interfaces/CMakeFiles/edit_cache.dir
+/home/robot/ros2_ws/build/camera_interfaces/CMakeFiles/rebuild_cache.dir
+/home/robot/ros2_ws/build/camera_interfaces/CMakeFiles/list_install_components.dir
+/home/robot/ros2_ws/build/camera_interfaces/CMakeFiles/install.dir
+/home/robot/ros2_ws/build/camera_interfaces/CMakeFiles/install/local.dir
+/home/robot/ros2_ws/build/camera_interfaces/CMakeFiles/install/strip.dir

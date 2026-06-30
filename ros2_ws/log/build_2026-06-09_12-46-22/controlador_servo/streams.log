@@ -1,0 +1,251 @@
+[0.053s] Invoking command in '/home/robot/ros2_ws/build/controlador_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/ros2_ws/src/controlador_servo -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/install/controlador_servo
+[0.360s] -- The C compiler identification is GNU 13.3.0
+[0.660s] -- The CXX compiler identification is GNU 13.3.0
+[0.753s] -- Detecting C compiler ABI info
+[1.262s] -- Detecting C compiler ABI info - done
+[1.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.299s] -- Detecting C compile features
+[1.301s] -- Detecting C compile features - done
+[1.353s] -- Detecting CXX compiler ABI info
+[1.900s] -- Detecting CXX compiler ABI info - done
+[1.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.938s] -- Detecting CXX compile features
+[1.939s] -- Detecting CXX compile features - done
+[1.968s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.759s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.469s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[3.492s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.015s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.387s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.391s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[9.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.449s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[13.137s] -- Found PythonExtra: /usr/bin/python3  
+[15.263s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[15.563s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[15.593s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[15.813s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.814s] -- Configured 'flake8' exclude dirs and/or files: 
+[15.818s] -- Added test 'lint_cmake' to check CMake code style
+[15.822s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.834s] -- Added test 'xmllint' to check XML markup files
+[15.854s] -- Configuring done (15.8s)
+[16.057s] -- Generating done (0.2s)
+[16.111s] -- Build files have been written to: /home/robot/ros2_ws/build/controlador_servo
+[16.155s] Invoked command in '/home/robot/ros2_ws/build/controlador_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/ros2_ws/src/controlador_servo -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/install/controlador_servo
+[16.162s] Invoking command in '/home/robot/ros2_ws/build/controlador_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/ros2_ws/build/controlador_servo -- -j4 -l4
+[16.452s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[16.453s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[16.506s] [  5%] Built target ament_cmake_python_copy_controlador_servo
+[17.474s] [  5%] Built target controlador_servo__rosidl_generator_type_description
+[17.547s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[17.614s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.789s] [ 11%] Built target controlador_servo__rs
+[18.041s] running egg_info
+[18.045s] creating controlador_servo.egg-info
+[18.169s] writing controlador_servo.egg-info/PKG-INFO
+[18.170s] writing dependency_links to controlador_servo.egg-info/dependency_links.txt
+[18.171s] writing top-level names to controlador_servo.egg-info/top_level.txt
+[18.172s] writing manifest file 'controlador_servo.egg-info/SOURCES.txt'
+[18.541s] reading manifest file 'controlador_servo.egg-info/SOURCES.txt'
+[18.543s] writing manifest file 'controlador_servo.egg-info/SOURCES.txt'
+[18.712s] [ 11%] Built target ament_cmake_python_build_controlador_servo_egg
+[19.066s] [ 11%] Built target controlador_servo__cpp
+[19.206s] [ 14%] [32mBuilding C object CMakeFiles/controlador_servo__rosidl_generator_c.dir/rosidl_generator_c/controlador_servo/srv/detail/mover_servo__description.c.o[0m
+[19.208s] [ 17%] [32mBuilding C object CMakeFiles/controlador_servo__rosidl_generator_c.dir/rosidl_generator_c/controlador_servo/srv/detail/mover_servo__functions.c.o[0m
+[19.212s] [ 20%] [32mBuilding C object CMakeFiles/controlador_servo__rosidl_generator_c.dir/rosidl_generator_c/controlador_servo/srv/detail/mover_servo__type_support.c.o[0m
+[19.595s] [ 22%] [32m[1mLinking C shared library libcontrolador_servo__rosidl_generator_c.so[0m
+[19.813s] [ 22%] Built target controlador_servo__rosidl_generator_c
+[19.884s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.885s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.887s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.888s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[21.209s] [ 37%] [32mBuilding CXX object CMakeFiles/controlador_servo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controlador_servo/srv/mover_servo__type_support.cpp.o[0m
+[21.352s] [ 40%] [32mBuilding CXX object CMakeFiles/controlador_servo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controlador_servo/srv/detail/mover_servo__type_support.cpp.o[0m
+[21.561s] [ 42%] [32mBuilding CXX object CMakeFiles/controlador_servo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controlador_servo/srv/detail/dds_fastrtps/mover_servo__type_support.cpp.o[0m
+[21.703s] [ 45%] [32mBuilding CXX object CMakeFiles/controlador_servo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controlador_servo/srv/detail/mover_servo__type_support_c.cpp.o[0m
+[23.784s] [ 48%] [32m[1mLinking CXX shared library libcontrolador_servo__rosidl_typesupport_cpp.so[0m
+[24.231s] [ 51%] [32m[1mLinking CXX shared library libcontrolador_servo__rosidl_typesupport_introspection_cpp.so[0m
+[24.277s] [ 51%] Built target controlador_servo__rosidl_typesupport_cpp
+[24.348s] [ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.720s] [ 54%] Built target controlador_servo__rosidl_typesupport_introspection_cpp
+[24.800s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[25.324s] [ 60%] [32m[1mLinking CXX shared library libcontrolador_servo__rosidl_typesupport_fastrtps_c.so[0m
+[25.783s] [ 62%] [32m[1mLinking CXX shared library libcontrolador_servo__rosidl_typesupport_fastrtps_cpp.so[0m
+[25.815s] [ 62%] Built target controlador_servo__rosidl_typesupport_fastrtps_c
+[25.979s] [ 65%] [32mBuilding C object CMakeFiles/controlador_servo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controlador_servo/srv/detail/mover_servo__type_support.c.o[0m
+[26.209s] [ 68%] [32mBuilding CXX object CMakeFiles/controlador_servo__rosidl_typesupport_c.dir/rosidl_typesupport_c/controlador_servo/srv/mover_servo__type_support.cpp.o[0m
+[26.242s] [ 68%] Built target controlador_servo__rosidl_typesupport_fastrtps_cpp
+[26.301s] [ 71%] [32m[1mLinking C shared library libcontrolador_servo__rosidl_typesupport_introspection_c.so[0m
+[26.485s] [ 71%] Built target controlador_servo__rosidl_typesupport_introspection_c
+[26.486s] [ 74%] [32m[1mLinking CXX shared library libcontrolador_servo__rosidl_typesupport_c.so[0m
+[26.702s] [ 74%] Built target controlador_servo__rosidl_typesupport_c
+[26.823s] [ 74%] Built target controlador_servo
+[26.942s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.439s] [ 77%] Built target controlador_servo__py
+[28.560s] [ 80%] [32mBuilding C object CMakeFiles/controlador_servo__rosidl_generator_py.dir/rosidl_generator_py/controlador_servo/srv/_mover_servo_s.c.o[0m
+[29.296s] [ 82%] [32m[1mLinking C shared library libcontrolador_servo__rosidl_generator_py.so[0m
+[29.544s] [ 82%] Built target controlador_servo__rosidl_generator_py
+[29.673s] [ 88%] [32mBuilding C object CMakeFiles/controlador_servo_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[29.674s] [ 88%] [32mBuilding C object CMakeFiles/controlador_servo_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[29.674s] [ 91%] [32mBuilding C object CMakeFiles/controlador_servo_s__rosidl_typesupport_c.dir/rosidl_generator_py/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_c.c.o[0m
+[30.266s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/controlador_servo/controlador_servo_s__rosidl_typesupport_c.so[0m
+[30.272s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/controlador_servo/controlador_servo_s__rosidl_typesupport_introspection_c.so[0m
+[30.314s] [100%] [32m[1mLinking C shared module rosidl_generator_py/controlador_servo/controlador_servo_s__rosidl_typesupport_fastrtps_c.so[0m
+[30.458s] [100%] Built target controlador_servo_s__rosidl_typesupport_c
+[30.468s] [100%] Built target controlador_servo_s__rosidl_typesupport_introspection_c
+[30.510s] [100%] Built target controlador_servo_s__rosidl_typesupport_fastrtps_c
+[30.573s] Invoked command in '/home/robot/ros2_ws/build/controlador_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/ros2_ws/build/controlador_servo -- -j4 -l4
+[30.628s] Invoking command in '/home/robot/ros2_ws/build/controlador_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robot/ros2_ws/build/controlador_servo
+[30.674s] -- Install configuration: ""
+[30.675s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/rosidl_interfaces/controlador_servo
+[30.677s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/srv/MoverServo.json
+[30.678s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo
+[30.679s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg
+[30.680s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg/rosidl_generator_c__visibility_control.h
+[30.681s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv
+[30.682s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/mover_servo.h
+[30.683s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail
+[30.684s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__functions.c
+[30.685s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__type_support.h
+[30.687s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__struct.h
+[30.688s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__type_support.c
+[30.689s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__functions.h
+[30.690s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__description.c
+[30.692s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/library_path.sh
+[30.693s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/library_path.dsv
+[30.695s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_generator_c.so
+[30.698s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_generator_c.so" to ""
+[30.699s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo
+[30.699s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg
+[30.699s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.700s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv
+[30.701s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail
+[30.701s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__rosidl_typesupport_fastrtps_c.h
+[30.703s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_fastrtps_c.so
+[30.706s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_fastrtps_c.so" to ""
+[30.707s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo
+[30.707s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg
+[30.708s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.709s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv
+[30.709s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail
+[30.710s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__type_support.c
+[30.711s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__rosidl_typesupport_introspection_c.h
+[30.713s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_introspection_c.so
+[30.716s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_introspection_c.so" to ""
+[30.716s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_c.so
+[30.719s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_c.so" to ""
+[30.720s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo
+[30.720s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg
+[30.721s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg/rosidl_generator_cpp__visibility_control.hpp
+[30.722s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv
+[30.722s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/mover_servo.hpp
+[30.723s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail
+[30.724s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__builder.hpp
+[30.725s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__traits.hpp
+[30.726s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__struct.hpp
+[30.727s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__type_support.hpp
+[30.729s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo
+[30.729s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg
+[30.730s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.731s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv
+[30.732s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail
+[30.732s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__rosidl_typesupport_fastrtps_cpp.hpp
+[30.733s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/dds_fastrtps
+[30.734s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_fastrtps_cpp.so
+[30.738s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[30.739s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo
+[30.739s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv
+[30.740s] -- Up-to-date: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail
+[30.740s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__rosidl_typesupport_introspection_cpp.hpp
+[30.741s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/include/controlador_servo/controlador_servo/srv/detail/mover_servo__type_support.cpp
+[30.743s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_introspection_cpp.so
+[30.746s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_introspection_cpp.so" to ""
+[30.747s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_cpp.so
+[30.750s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_typesupport_cpp.so" to ""
+[30.751s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/pythonpath.sh
+[30.752s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/pythonpath.dsv
+[30.753s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo-0.0.0-py3.12.egg-info
+[30.754s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo-0.0.0-py3.12.egg-info/top_level.txt
+[30.755s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo-0.0.0-py3.12.egg-info/PKG-INFO
+[30.756s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo-0.0.0-py3.12.egg-info/SOURCES.txt
+[30.757s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo-0.0.0-py3.12.egg-info/dependency_links.txt
+[30.759s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo
+[30.759s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_c.so
+[30.761s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.763s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/__init__.py
+[30.764s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_c.c
+[30.765s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv
+[30.766s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv/__init__.py
+[30.767s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv/_mover_servo_s.c
+[30.768s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv/_mover_servo.py
+[30.769s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_fastrtps_c.so
+[30.772s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_introspection_c.so
+[30.773s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/_controlador_servo_s.ep.rosidl_typesupport_introspection_c.c
+[30.964s] Listing '/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo'...
+[30.965s] Compiling '/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/__init__.py'...
+[30.966s] Listing '/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv'...
+[30.967s] Compiling '/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv/__init__.py'...
+[30.968s] Compiling '/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/srv/_mover_servo.py'...
+[30.996s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_fastrtps_c.so
+[30.999s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_fastrtps_c.so" to ""
+[31.001s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_introspection_c.so
+[31.005s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_introspection_c.so" to ""
+[31.007s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_c.so
+[31.012s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/python3.12/site-packages/controlador_servo/controlador_servo_s__rosidl_typesupport_c.so" to ""
+[31.012s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_generator_py.so
+[31.016s] -- Set non-toolchain portion of runtime path of "/home/robot/ros2_ws/install/controlador_servo/lib/libcontrolador_servo__rosidl_generator_py.so" to ""
+[31.016s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/rust_packages/controlador_servo
+[31.018s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust
+[31.018s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/build.rs
+[31.019s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/src
+[31.020s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/src/lib.rs
+[31.021s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/src/srv
+[31.022s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/src/srv/rmw.rs
+[31.023s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/src/srv.rs
+[31.024s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/rust/Cargo.toml
+[31.025s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/srv/MoverServo.idl
+[31.026s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/srv/MoverServo.srv
+[31.027s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/lib/controlador_servo/controlador_servo_node.py
+[31.029s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/package_run_dependencies/controlador_servo
+[31.031s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/parent_prefix_path/controlador_servo
+[31.032s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/ament_prefix_path.sh
+[31.033s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/ament_prefix_path.dsv
+[31.035s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/path.sh
+[31.036s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/path.dsv
+[31.037s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.bash
+[31.038s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.sh
+[31.039s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.zsh
+[31.040s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.dsv
+[31.042s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/package.dsv
+[31.043s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/packages/controlador_servo
+[31.045s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_generator_cExport.cmake
+[31.046s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_generator_cExport-noconfig.cmake
+[31.048s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_typesupport_fastrtps_cExport.cmake
+[31.049s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[31.051s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_introspection_cExport.cmake
+[31.053s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.054s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_cExport.cmake
+[31.056s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_cExport-noconfig.cmake
+[31.057s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_generator_cppExport.cmake
+[31.059s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.060s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[31.062s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_introspection_cppExport.cmake
+[31.064s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[31.065s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_cppExport.cmake
+[31.067s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servo__rosidl_typesupport_cppExport-noconfig.cmake
+[31.068s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_generator_pyExport.cmake
+[31.070s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/export_controlador_servo__rosidl_generator_pyExport-noconfig.cmake
+[31.071s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/rosidl_cmake-extras.cmake
+[31.072s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.074s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.075s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/ament_cmake_export_libraries-extras.cmake
+[31.077s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/ament_cmake_export_targets-extras.cmake
+[31.078s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.079s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.080s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servoConfig.cmake
+[31.082s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servoConfig-version.cmake
+[31.083s] -- Installing: /home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/package.xml
+[31.092s] Invoked command in '/home/robot/ros2_ws/build/controlador_servo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/ros2_ws/install/drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robot/ros2_ws/build/controlador_servo

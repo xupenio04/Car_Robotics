@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.001442] (-) JobUnselected: {'identifier': 'controlador_servo'}
+[0.001596] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.001684] (drivers) JobQueued: {'identifier': 'drivers', 'dependencies': OrderedDict()}
+[0.001758] (drivers) JobStarted: {'identifier': 'drivers'}
+[0.099253] (-) TimerEvent: {}
+[0.199858] (-) TimerEvent: {}
+[0.300451] (-) TimerEvent: {}
+[0.401088] (-) TimerEvent: {}
+[0.501660] (-) TimerEvent: {}
+[0.602189] (-) TimerEvent: {}
+[0.702752] (-) TimerEvent: {}
+[0.803292] (-) TimerEvent: {}
+[0.903959] (-) TimerEvent: {}
+[1.005299] (-) TimerEvent: {}
+[1.105889] (-) TimerEvent: {}
+[1.206461] (-) TimerEvent: {}
+[1.307097] (-) TimerEvent: {}
+[1.407664] (-) TimerEvent: {}
+[1.508190] (-) TimerEvent: {}
+[1.608753] (-) TimerEvent: {}
+[1.709268] (-) TimerEvent: {}
+[1.809829] (-) TimerEvent: {}
+[1.910393] (-) TimerEvent: {}
+[2.011003] (-) TimerEvent: {}
+[2.111568] (-) TimerEvent: {}
+[2.212095] (-) TimerEvent: {}
+[2.312632] (-) TimerEvent: {}
+[2.413134] (-) TimerEvent: {}
+[2.513641] (-) TimerEvent: {}
+[2.614199] (-) TimerEvent: {}
+[2.714810] (-) TimerEvent: {}
+[2.815328] (-) TimerEvent: {}
+[2.915907] (-) TimerEvent: {}
+[3.016440] (-) TimerEvent: {}
+[3.116997] (-) TimerEvent: {}
+[3.217511] (-) TimerEvent: {}
+[3.318131] (-) TimerEvent: {}
+[3.418654] (-) TimerEvent: {}
+[3.519194] (-) TimerEvent: {}
+[3.619857] (-) TimerEvent: {}
+[3.720745] (-) TimerEvent: {}
+[3.759806] (drivers) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drivers', 'build', '--build-base', '/home/robot/ros2_ws/build/drivers/build', 'install', '--record', '/home/robot/ros2_ws/build/drivers/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robot/ros2_ws/src/drivers', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '192.168.1.105 62845 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/usr/local/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/robot', 'OLDPWD': '/home/robot', 'SSH_TTY': '/dev/pts/13', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '36', 'PATH': '/home/robot/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'GST_PLUGIN_PATH': '/usr/local/lib/aarch64-linux-gnu/gstreamer-1.0:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/robot/ros2_ws/build/drivers', 'LC_ALL': 'en_US.UTF-8', 'LIBCAMERA_IPA_MODULE_PATH': '/usr/local/lib/aarch64-linux-gnu/libcamera', 'SSH_CONNECTION': '192.168.1.105 62845 192.168.1.104 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robot/ros2_ws/build/drivers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.820897] (-) TimerEvent: {}
+[3.921486] (-) TimerEvent: {}
+[4.022124] (-) TimerEvent: {}
+[4.122764] (-) TimerEvent: {}
+[4.223339] (-) TimerEvent: {}
+[4.323968] (-) TimerEvent: {}
+[4.424512] (-) TimerEvent: {}
+[4.525120] (-) TimerEvent: {}
+[4.625661] (-) TimerEvent: {}
+[4.726183] (-) TimerEvent: {}
+[4.826742] (-) TimerEvent: {}
+[4.927256] (-) TimerEvent: {}
+[4.980282] (drivers) StdoutLine: {'line': b'running egg_info\n'}
+[5.027401] (-) TimerEvent: {}
+[5.071357] (drivers) StdoutLine: {'line': b'writing ../../build/drivers/drivers.egg-info/PKG-INFO\n'}
+[5.072525] (drivers) StdoutLine: {'line': b'writing dependency_links to ../../build/drivers/drivers.egg-info/dependency_links.txt\n'}
+[5.079047] (drivers) StdoutLine: {'line': b'writing entry points to ../../build/drivers/drivers.egg-info/entry_points.txt\n'}
+[5.079878] (drivers) StdoutLine: {'line': b'writing requirements to ../../build/drivers/drivers.egg-info/requires.txt\n'}
+[5.080584] (drivers) StdoutLine: {'line': b'writing top-level names to ../../build/drivers/drivers.egg-info/top_level.txt\n'}
+[5.127594] (-) TimerEvent: {}
+[5.228127] (-) TimerEvent: {}
+[5.270031] (drivers) StdoutLine: {'line': b"reading manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'\n"}
+[5.273622] (drivers) StdoutLine: {'line': b"writing manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'\n"}
+[5.274334] (drivers) StdoutLine: {'line': b'running build\n'}
+[5.274881] (drivers) StdoutLine: {'line': b'running build_py\n'}
+[5.276754] (drivers) StdoutLine: {'line': b'running install\n'}
+[5.300784] (drivers) StdoutLine: {'line': b'running install_lib\n'}
+[5.328278] (-) TimerEvent: {}
+[5.396001] (drivers) StdoutLine: {'line': b'running install_data\n'}
+[5.396665] (drivers) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.428427] (-) TimerEvent: {}
+[5.492097] (drivers) StdoutLine: {'line': b"removing '/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.493870] (drivers) StdoutLine: {'line': b'Copying ../../build/drivers/drivers.egg-info to /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info\n'}
+[5.499304] (drivers) StdoutLine: {'line': b'running install_scripts\n'}
+[5.528615] (-) TimerEvent: {}
+[5.629151] (-) TimerEvent: {}
+[5.729785] (-) TimerEvent: {}
+[5.830298] (-) TimerEvent: {}
+[5.930855] (-) TimerEvent: {}
+[6.031423] (-) TimerEvent: {}
+[6.132022] (-) TimerEvent: {}
+[6.181163] (drivers) StdoutLine: {'line': b'Installing lidar_calibracao script to /home/robot/ros2_ws/install/drivers/lib/drivers\n'}
+[6.182046] (drivers) StdoutLine: {'line': b'Installing lidar_diagnostico script to /home/robot/ros2_ws/install/drivers/lib/drivers\n'}
+[6.184775] (drivers) StdoutLine: {'line': b'Installing lidar_node script to /home/robot/ros2_ws/install/drivers/lib/drivers\n'}
+[6.185596] (drivers) StdoutLine: {'line': b'Installing localizacao_angular script to /home/robot/ros2_ws/install/drivers/lib/drivers\n'}
+[6.187280] (drivers) StdoutLine: {'line': b"writing list of installed files to '/home/robot/ros2_ws/build/drivers/install.log'\n"}
+[6.232287] (-) TimerEvent: {}
+[6.329231] (drivers) CommandEnded: {'returncode': 0}
+[6.332528] (-) TimerEvent: {}
+[6.376935] (drivers) JobEnded: {'identifier': 'drivers', 'rc': 0}
+[6.379843] (-) EventReactorShutdown: {}

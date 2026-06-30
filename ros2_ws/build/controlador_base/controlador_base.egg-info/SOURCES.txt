@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/controlador_base/controlador_base.egg-info/PKG-INFO
+../../build/controlador_base/controlador_base.egg-info/SOURCES.txt
+../../build/controlador_base/controlador_base.egg-info/dependency_links.txt
+../../build/controlador_base/controlador_base.egg-info/entry_points.txt
+../../build/controlador_base/controlador_base.egg-info/requires.txt
+../../build/controlador_base/controlador_base.egg-info/top_level.txt
+../../build/controlador_base/controlador_base.egg-info/zip-safe
+controlador_base/__init__.py
+controlador_base/controlador_base.py
+resource/controlador_base
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

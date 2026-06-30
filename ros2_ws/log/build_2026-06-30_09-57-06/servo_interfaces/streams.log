@@ -1,0 +1,22 @@
+[0.133s] Invoking command in '/home/robot/ros2_ws/build/servo_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/ros2_ws/src/servo_interfaces -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/install/servo_interfaces
+[1.411s] -- The C compiler identification is GNU 13.3.0
+[2.287s] -- The CXX compiler identification is GNU 13.3.0
+[2.429s] -- Detecting C compiler ABI info
+[3.137s] -- Detecting C compiler ABI info - done
+[3.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.193s] -- Detecting C compile features
+[3.196s] -- Detecting C compile features - done
+[3.262s] -- Detecting CXX compiler ABI info
+[3.987s] -- Detecting CXX compiler ABI info - done
+[4.030s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.031s] -- Detecting CXX compile features
+[4.033s] -- Detecting CXX compile features - done
+[4.076s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.082s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.051s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.779s] -- Configuring incomplete, errors occurred!
+[6.780s] [31mCMake Error at CMakeLists.txt:26 (rosidl_generate_interfaces):
+[6.780s]   Unknown CMake command "rosidl_generate_interfaces".
+[6.781s] 
+[6.781s] [0m
+[6.811s] Invoked command in '/home/robot/ros2_ws/build/servo_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robot/ros2_ws/src/servo_interfaces -DCMAKE_INSTALL_PREFIX=/home/robot/ros2_ws/install/servo_interfaces

@@ -1,0 +1,16 @@
+/home/robot/ros2_ws/install/controlador_servo/lib/controlador_servo/controlador_servo_node.py
+/home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/package_run_dependencies/controlador_servo
+/home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/parent_prefix_path/controlador_servo
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/ament_prefix_path.sh
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/ament_prefix_path.dsv
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/path.sh
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/environment/path.dsv
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.bash
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.sh
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.zsh
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/local_setup.dsv
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/package.dsv
+/home/robot/ros2_ws/install/controlador_servo/share/ament_index/resource_index/packages/controlador_servo
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servoConfig.cmake
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/cmake/controlador_servoConfig-version.cmake
+/home/robot/ros2_ws/install/controlador_servo/share/controlador_servo/package.xml

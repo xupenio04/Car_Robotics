@@ -1,0 +1,14 @@
+source;share/controlador_servo/hook/cmake_prefix_path.ps1
+source;share/controlador_servo/hook/cmake_prefix_path.dsv
+source;share/controlador_servo/hook/cmake_prefix_path.sh
+source;share/controlador_servo/hook/ld_library_path_lib.ps1
+source;share/controlador_servo/hook/ld_library_path_lib.dsv
+source;share/controlador_servo/hook/ld_library_path_lib.sh
+source;share/controlador_servo/hook/pythonpath.ps1
+source;share/controlador_servo/hook/pythonpath.dsv
+source;share/controlador_servo/hook/pythonpath.sh
+source;share/controlador_servo/local_setup.bash
+source;share/controlador_servo/local_setup.dsv
+source;share/controlador_servo/local_setup.ps1
+source;share/controlador_servo/local_setup.sh
+source;share/controlador_servo/local_setup.zsh

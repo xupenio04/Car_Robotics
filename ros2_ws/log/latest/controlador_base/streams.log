@@ -1,0 +1,38 @@
+[6.883s] Invoking command in '/home/robot/ros2_ws/src/controlador_base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/controlador_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/controlador_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controlador_base build --build-base /home/robot/ros2_ws/build/controlador_base/build install --record /home/robot/ros2_ws/build/controlador_base/install.log --single-version-externally-managed install_data
+[8.972s] running egg_info
+[8.974s] creating ../../build/controlador_base/controlador_base.egg-info
+[9.152s] writing ../../build/controlador_base/controlador_base.egg-info/PKG-INFO
+[9.156s] writing dependency_links to ../../build/controlador_base/controlador_base.egg-info/dependency_links.txt
+[9.156s] writing entry points to ../../build/controlador_base/controlador_base.egg-info/entry_points.txt
+[9.161s] writing requirements to ../../build/controlador_base/controlador_base.egg-info/requires.txt
+[9.161s] writing top-level names to ../../build/controlador_base/controlador_base.egg-info/top_level.txt
+[9.162s] writing manifest file '../../build/controlador_base/controlador_base.egg-info/SOURCES.txt'
+[9.519s] reading manifest file '../../build/controlador_base/controlador_base.egg-info/SOURCES.txt'
+[9.520s] adding license file 'LICENSE'
+[9.524s] writing manifest file '../../build/controlador_base/controlador_base.egg-info/SOURCES.txt'
+[9.527s] running build
+[9.528s] running build_py
+[9.529s] creating /home/robot/ros2_ws/build/controlador_base/build
+[9.530s] creating /home/robot/ros2_ws/build/controlador_base/build/lib
+[9.532s] creating /home/robot/ros2_ws/build/controlador_base/build/lib/controlador_base
+[9.533s] copying controlador_base/controlador_base.py -> /home/robot/ros2_ws/build/controlador_base/build/lib/controlador_base
+[9.537s] copying controlador_base/__init__.py -> /home/robot/ros2_ws/build/controlador_base/build/lib/controlador_base
+[9.538s] running install
+[9.579s] running install_lib
+[9.742s] creating /home/robot/ros2_ws/install/controlador_base/lib/python3.12/site-packages/controlador_base
+[9.746s] copying /home/robot/ros2_ws/build/controlador_base/build/lib/controlador_base/controlador_base.py -> /home/robot/ros2_ws/install/controlador_base/lib/python3.12/site-packages/controlador_base
+[9.750s] copying /home/robot/ros2_ws/build/controlador_base/build/lib/controlador_base/__init__.py -> /home/robot/ros2_ws/install/controlador_base/lib/python3.12/site-packages/controlador_base
+[9.753s] byte-compiling /home/robot/ros2_ws/install/controlador_base/lib/python3.12/site-packages/controlador_base/controlador_base.py to controlador_base.cpython-312.pyc
+[9.768s] byte-compiling /home/robot/ros2_ws/install/controlador_base/lib/python3.12/site-packages/controlador_base/__init__.py to __init__.cpython-312.pyc
+[9.771s] running install_data
+[9.772s] creating /home/robot/ros2_ws/install/controlador_base/share/ament_index
+[9.775s] creating /home/robot/ros2_ws/install/controlador_base/share/ament_index/resource_index
+[9.776s] creating /home/robot/ros2_ws/install/controlador_base/share/ament_index/resource_index/packages
+[9.778s] copying resource/controlador_base -> /home/robot/ros2_ws/install/controlador_base/share/ament_index/resource_index/packages
+[9.779s] copying package.xml -> /home/robot/ros2_ws/install/controlador_base/share/controlador_base
+[9.782s] running install_egg_info
+[9.946s] Copying ../../build/controlador_base/controlador_base.egg-info to /home/robot/ros2_ws/install/controlador_base/lib/python3.12/site-packages/controlador_base-0.0.0-py3.12.egg-info
+[9.956s] running install_scripts
+[11.132s] Installing controlador_base script to /home/robot/ros2_ws/install/controlador_base/lib/controlador_base
+[11.138s] writing list of installed files to '/home/robot/ros2_ws/build/controlador_base/install.log'
+[11.332s] Invoked command in '/home/robot/ros2_ws/src/controlador_base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/controlador_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/controlador_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controlador_base build --build-base /home/robot/ros2_ws/build/controlador_base/build install --record /home/robot/ros2_ws/build/controlador_base/install.log --single-version-externally-managed install_data

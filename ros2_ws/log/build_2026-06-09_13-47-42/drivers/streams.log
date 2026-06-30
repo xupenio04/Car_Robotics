@@ -1,0 +1,24 @@
+[3.766s] Invoking command in '/home/robot/ros2_ws/src/drivers': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/drivers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drivers build --build-base /home/robot/ros2_ws/build/drivers/build install --record /home/robot/ros2_ws/build/drivers/install.log --single-version-externally-managed install_data
+[4.979s] running egg_info
+[5.070s] writing ../../build/drivers/drivers.egg-info/PKG-INFO
+[5.071s] writing dependency_links to ../../build/drivers/drivers.egg-info/dependency_links.txt
+[5.078s] writing entry points to ../../build/drivers/drivers.egg-info/entry_points.txt
+[5.078s] writing requirements to ../../build/drivers/drivers.egg-info/requires.txt
+[5.079s] writing top-level names to ../../build/drivers/drivers.egg-info/top_level.txt
+[5.269s] reading manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'
+[5.272s] writing manifest file '../../build/drivers/drivers.egg-info/SOURCES.txt'
+[5.273s] running build
+[5.273s] running build_py
+[5.275s] running install
+[5.299s] running install_lib
+[5.395s] running install_data
+[5.395s] running install_egg_info
+[5.491s] removing '/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info' (and everything under it)
+[5.492s] Copying ../../build/drivers/drivers.egg-info to /home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages/drivers-0.0.0-py3.12.egg-info
+[5.498s] running install_scripts
+[6.180s] Installing lidar_calibracao script to /home/robot/ros2_ws/install/drivers/lib/drivers
+[6.181s] Installing lidar_diagnostico script to /home/robot/ros2_ws/install/drivers/lib/drivers
+[6.183s] Installing lidar_node script to /home/robot/ros2_ws/install/drivers/lib/drivers
+[6.184s] Installing localizacao_angular script to /home/robot/ros2_ws/install/drivers/lib/drivers
+[6.186s] writing list of installed files to '/home/robot/ros2_ws/build/drivers/install.log'
+[6.328s] Invoked command in '/home/robot/ros2_ws/src/drivers' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/drivers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/drivers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drivers build --build-base /home/robot/ros2_ws/build/drivers/build install --record /home/robot/ros2_ws/build/drivers/install.log --single-version-externally-managed install_data

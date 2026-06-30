@@ -1,0 +1,2 @@
+Invoking command in '/home/robot/ros2_ws/build/controlador_servo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/ros2_ws/build/controlador_servo -- -j4 -l4
+Invoked command in '/home/robot/ros2_ws/build/controlador_servo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robot/ros2_ws/build/controlador_servo -- -j4 -l4

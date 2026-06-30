@@ -1,0 +1,36 @@
+[6.801s] Invoking command in '/home/robot/ros2_ws/src/camera_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/camera_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/camera_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/robot/ros2_ws/build/camera_pkg/build install --record /home/robot/ros2_ws/build/camera_pkg/install.log --single-version-externally-managed install_data
+[8.861s] running egg_info
+[8.865s] creating ../../build/camera_pkg/camera_pkg.egg-info
+[9.035s] writing ../../build/camera_pkg/camera_pkg.egg-info/PKG-INFO
+[9.036s] writing dependency_links to ../../build/camera_pkg/camera_pkg.egg-info/dependency_links.txt
+[9.038s] writing requirements to ../../build/camera_pkg/camera_pkg.egg-info/requires.txt
+[9.038s] writing top-level names to ../../build/camera_pkg/camera_pkg.egg-info/top_level.txt
+[9.039s] writing manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[9.386s] reading manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[9.389s] adding license file 'LICENSE'
+[9.390s] writing manifest file '../../build/camera_pkg/camera_pkg.egg-info/SOURCES.txt'
+[9.391s] running build
+[9.391s] running build_py
+[9.393s] creating /home/robot/ros2_ws/build/camera_pkg/build
+[9.394s] creating /home/robot/ros2_ws/build/camera_pkg/build/lib
+[9.395s] creating /home/robot/ros2_ws/build/camera_pkg/build/lib/camera_pkg
+[9.399s] copying camera_pkg/__init__.py -> /home/robot/ros2_ws/build/camera_pkg/build/lib/camera_pkg
+[9.402s] copying camera_pkg/camera_service.py -> /home/robot/ros2_ws/build/camera_pkg/build/lib/camera_pkg
+[9.403s] running install
+[9.430s] running install_lib
+[9.595s] creating /home/robot/ros2_ws/install/camera_pkg/lib/python3.12/site-packages/camera_pkg
+[9.596s] copying /home/robot/ros2_ws/build/camera_pkg/build/lib/camera_pkg/__init__.py -> /home/robot/ros2_ws/install/camera_pkg/lib/python3.12/site-packages/camera_pkg
+[9.600s] copying /home/robot/ros2_ws/build/camera_pkg/build/lib/camera_pkg/camera_service.py -> /home/robot/ros2_ws/install/camera_pkg/lib/python3.12/site-packages/camera_pkg
+[9.600s] byte-compiling /home/robot/ros2_ws/install/camera_pkg/lib/python3.12/site-packages/camera_pkg/__init__.py to __init__.cpython-312.pyc
+[9.602s] byte-compiling /home/robot/ros2_ws/install/camera_pkg/lib/python3.12/site-packages/camera_pkg/camera_service.py to camera_service.cpython-312.pyc
+[9.611s] running install_data
+[9.612s] creating /home/robot/ros2_ws/install/camera_pkg/share/ament_index
+[9.612s] creating /home/robot/ros2_ws/install/camera_pkg/share/ament_index/resource_index
+[9.616s] creating /home/robot/ros2_ws/install/camera_pkg/share/ament_index/resource_index/packages
+[9.617s] copying resource/camera_pkg -> /home/robot/ros2_ws/install/camera_pkg/share/ament_index/resource_index/packages
+[9.618s] copying package.xml -> /home/robot/ros2_ws/install/camera_pkg/share/camera_pkg
+[9.618s] running install_egg_info
+[9.777s] Copying ../../build/camera_pkg/camera_pkg.egg-info to /home/robot/ros2_ws/install/camera_pkg/lib/python3.12/site-packages/camera_pkg-0.0.0-py3.12.egg-info
+[9.781s] running install_scripts
+[10.860s] writing list of installed files to '/home/robot/ros2_ws/build/camera_pkg/install.log'
+[11.077s] Invoked command in '/home/robot/ros2_ws/src/camera_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robot/ros2_ws/build/camera_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robot/ros2_ws/install/camera_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pkg build --build-base /home/robot/ros2_ws/build/camera_pkg/build install --record /home/robot/ros2_ws/build/camera_pkg/install.log --single-version-externally-managed install_data
