@@ -1,0 +1,15 @@
+navegador:
+  ros__parameters:
+    v_max: 0.15
+    safety_dist: 0.35
+    robot_radius: 0.20
+    vfh_threshold: 0.5
+    bifurcacao_frente_min: 1.0
+    bifurcacao_lateral_min: 0.6
+    angulo_servo_esquerda: -45.0
+    angulo_servo_direita: 45.0
+    angulo_giro: 1.57
+    velocidade_giro: 0.35
+    cor_alvo: "verde"
+    # Pares [min_deg, max_deg] de reflexos do chassi no scan
+    self_reflection_angles: [-150.0, -120.0, 120.0, 150.0]

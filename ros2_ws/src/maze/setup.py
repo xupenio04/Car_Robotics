@@ -1,6 +1,9 @@
+import os
+from glob import glob
+
 from setuptools import find_packages, setup
 
-package_name = 'camera_pkg'
+package_name = 'maze'
 
 setup(
     name=package_name,
@@ -10,12 +13,16 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'),
+            glob('launch/*.launch.py')),
+        (os.path.join('share', package_name, 'config'),
+            glob('config/*.yaml')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='robot',
     maintainer_email='robot@todo.todo',
-    description='TODO: Package description',
+    description='Navegação autônoma com VFH para o desafio final',
     license='Apache-2.0',
     extras_require={
         'test': [
@@ -24,7 +31,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'camera_service = camera_pkg.camera_service:main',
+            'navegador = maze.navegador_node:main',
         ],
     },
 )
